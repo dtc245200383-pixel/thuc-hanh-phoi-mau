@@ -1,0 +1,32 @@
+:root {
+  /* Bảng màu đơn tông dựa trên xanh Logo #00ADEE (hoặc các màu khác cho Bước 8) */
+  --color-level-1: #00adee; /* Màu chính / Nổi bật (Sale/Preview) */
+  --color-level-2: #00b2ef;
+  --color-level-4: #00bff2; /* Bước 2: Màu nền Hero/Header */
+  --color-level-7: #8dd7f7; /* Bước 4: Màu nền phần nội dung */
+  --color-level-9: #c6e9fa; /* Bước 5: Màu nền Footer */
+  --text-color: #000000;    /* Bước 6: Màu chữ đen */
+}
+
+body {
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.hero-banner {
+  background-color: var(--color-level-4);
+}
+
+.badge-sale {
+  background-color: var(--color-level-1);
+  color: #ffffff;
+}
+
+.content-section {
+  background-color: var(--color-level-7);
+}
+
+footer {
+  background-color: var(--color-level-9);
+}
